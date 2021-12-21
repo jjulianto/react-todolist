@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# Todo Apps
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+To Do List website built with React JS.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Table of Contents](#table-of-contents)
+- [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Author](#author)
+- [License](#license)
 
-### `npm start`
+## Built With
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [React JS](https://reactjs.org/)
+- [Visual Studio Code](https://code.visualstudio.com/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+To get a local copy up and running follow these simple steps.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+These are list of things you need to have before you use the project and how to install them.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js<br>
+  Download the Node.js installer [here](https://nodejs.org/en/download/)<br>
+  Run the installer
+- Text Editor<br>
+  You can choose any text editor that suits you the most, but I recomend using Visual Studio Code<br>
+  Download the VSCode installer [here](https://code.visualstudio.com/download)<br>
+  Run the installer
+- NPM<br>
+  Download npm in Command Line Interface by typing the command :<br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+npm install npm@latest -g
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+1. Clone the repo
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+git clone https://github.com/jjulianto/react-todolist.git
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Change current directory to this repository folder
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+cd react-todolist
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Install dependencies
 
-## Learn More
+```
+npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Run the project
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   1. Open a terminal/CMD then run the database
 
-### Code Splitting
+      ```
+      npm run db
+      ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   2. Open another terminal/CMD then run the server
 
-### Analyzing the Bundle Size
+      ```
+      npm run start
+      ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   3. Open the browser then type the following link
 
-### Making a Progressive Web App
+      ```
+      localhost:3000
+      ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Author
 
-### Advanced Configuration
+**Julianto** - [Github](https://github.com/jjulianto)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## License
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Icons [Font Awesome](https://fontawesome.com/)
