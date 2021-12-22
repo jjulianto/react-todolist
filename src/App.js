@@ -185,6 +185,7 @@ function App() {
             <input
               type="date"
               name="date"
+              id="date"
               onChange={(e) => handleFormChange(e)}
               value={formTodo.date}
             ></input>
